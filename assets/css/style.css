@@ -196,7 +196,7 @@ body.active { overflow: hidden; }
 
 .h3 { font-size: var(--fs-3); }
 
-.h4 { font-size: var(--fs-5); }
+.h4 { font-size: var(--fs-8); }
 
 .w-100 { width: 100%; }
 
@@ -659,7 +659,29 @@ main { overflow-x: hidden; }
   opacity: 1;
 }
 
+.layout {
+  width: 100%;
 
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+}
+.layout-2 {
+  width: 100%;
+  margin-bottom: 65px;
+}
+
+.layout-poster {
+  
+  width: 100%;
+
+  display: grid;
+  grid-template-rows: repeat(auto-fit, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px;
+
+}
 
 
 
