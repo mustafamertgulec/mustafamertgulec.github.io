@@ -763,49 +763,7 @@ main { overflow-x: hidden; }
 }
 /**---------------------------------------------------------------------------------------------------------**/
 
-/* Kart stilini belirtmek için bir örnek */
-.kart {
- 
-  
-  position: relative;
-  overflow: hidden;
-  border-radius: var(--radius-12);
-  box-shadow: 2px 4px 6px hsla(0, 0%, 0%, 0.2);
-  display: flex; /* Kart içeriğini dikey ve yatay olarak hizalamak için */
- 
-  align-items: center; /* Dikeyde ortalamak için */
-  
-}
 
-/* "View More" butonu için stil */
-.view-more-button {
-   /* Buton arka plan rengi */
-  color: #fff; /* Buton metin rengi */
- /* Buton iç boşluğu */
-  border:3px solid white; /* Kenarlık yok */
-  border-radius: 1px; /* Kenar yuvarlaklığı */
-  
- 
-  cursor: pointer; /* Fare imlecini göster */
-  position: absolute; /* Pozisyonu mutlaka belirtilmeli */
-
-  width: 200px; /* Butonun genişliği */
-  height: 55px; /* Butonun yüksekliği */
-  
-  bottom: 60px; /* Üst boşluk */
-  left: 50%; /* Sol kenarı kartın yarısına ayarlayın */
-  transform: translateX(-50%); /* Butonun yarısını sola kaydırın */
-  text-align:center;
-  font-size: 20px;
-  font-weight: 600;
-}
-
-/* Butona hover olduğunda stil */
-.view-more-button:hover {
-  background-color: #fff; /* Buton arka plan rengi hover durumunda */
-  color: black;
-    font-weight: 600;
-}
 
 
 
