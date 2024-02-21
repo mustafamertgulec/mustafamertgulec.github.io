@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Mert Güleç - Portfolio</title>
-
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css">
   <!-- 
     - favicon
   -->
-   <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+   <link rel="icon" type="image/x-icon" href="./assets/images/favicon.ico">
 
   <!-- 
     - custom css link
@@ -37,15 +38,12 @@
     <div class="container">
 
       <h1 class="h1 logo">
-        <a href="#">Mert<span>.</span></a>
+        <a href="index.html"><span></span></a>
       </h1>
 
       <div class="navbar-actions">
 
-        <select name="language" id="lang">
-          <option value="en">En</option>
-          <option value="ar">Ar</option>
-        </select>
+      
 
         <button class="theme-btn" aria-label="Change Theme" title="Change Theme" data-theme-btn>
           <span class="icon"></span>
@@ -63,21 +61,15 @@
         <ul class="navbar-list">
 
           <li>
-            <a href="#home" class="navbar-link">Home.</a>
+            <a href="#about" class="navbar-link">Home.</a>
           </li>
-
-          <li>
-            <a href="#about" class="navbar-link">About.</a>
-          </li>
-
-          
 
           <li>
             <a href="#portfolio" class="navbar-link">Portfolio.</a>
           </li>
-
+		 
           <li>
-            <a href="#contact" class="navbar-link">Contact.</a>
+            <a href="#contact" class="navbar-link">Contact Me.</a>
           </li>
 
         </ul>
@@ -86,14 +78,8 @@
     </div>
   </header>
 
-
-
-
-
   <main>
     <article class="container">
-
-
 
       <!-- 
         - #ABOUT
@@ -101,10 +87,7 @@
 
       <section class="about" id="about">
 
-        <figure class="about-banner">
-          <img src="./assets/images/about-banner2.png" alt="A man in a alice blue shirt with a thinking expression"
-            class="w-100">
-        </figure>
+     
 
         <div class="about-content section-content">
 
@@ -119,8 +102,11 @@
 I'm Mert, a perpetual learner passionate about exploring diverse subjects and engaging with different perspectives. I thrive on executing projects aligned with my interests, approaching each endeavor with enthusiasm and commitment. Effective team communication, responsibility, and time management are ingrained in me through valuable academic and professional experiences, shaping how I tackle challenges and opportunities on my journey.
 			</p>
 
-         
-
+         </div>
+   <figure class="about-banner">
+          <img src="./assets/images/about-banner2.png" alt=""
+            class="w-100">
+        </figure>
       </section>
 
 
@@ -147,90 +133,408 @@ I'm Mert, a perpetual learner passionate about exploring diverse subjects and en
 </section>
 
 
-<section class="layout">
-  <div>
 
-  <a href="poster.html" class="project-card">
 
-              <figure class="card-banner">
-                <img src="./assets/images/3.png" class="w-100" alt="">
-				  
-              </figure>
 
-              <div class="card-content">
-                <h3 class="h4 card-title">Poster Designs</h3>
 
-               
-              </div>
 
-            </a></div>
-  <div><a href="#" class="project-card">
+<section class="layout2">
+  
+  
 
-              <figure class="card-banner">
-                <img src="./assets/images/4.png" class="w-100" alt="">
-              </figure>
 
-              <div class="card-content">
-                <h3 class="h4 card-title">UX UI Designs</h3>
+  
+	<div class="work-card" data-fancybox data-src="#gallery">
+		
+		<img src="./assets/images/poster/poster-main3.png" alt="">
+	
+	</div>
 
-               
-              </div>
-
-            </a>
+  
+  
+  
+	<div id="gallery" style="display: none;" class="fancyb">
+	
+	
 			
-			</div>
-  <div><a href="#" class="project-card">
+			<a href="./assets/images/poster/poster-main2.png" data-fancybox="gallery">
+			<img src="./assets/images/poster/poster-main2.png"  class="fancyb" alt="">
+			</a>
+			
+			<a href="./assets/images/poster/fletch.png" data-fancybox="gallery">
+			<img src="./assets/images/poster/fletch-k.png"  class="fancyb" alt="">
+			</a>
+			
+			<a href="./assets/images/poster/tame.png" data-fancybox="gallery">
+			<img src="./assets/images/poster/tame-k.png" class="fancyb" alt="">
+			</a>
+			
+			<a href="./assets/images/poster/fresh.png" data-fancybox="gallery">
+			<img src="./assets/images/poster/fresh-k.png"  class="fancyb" alt="">
+			</a>
+			
+			<a href="./assets/images/poster/bowl.png" data-fancybox="gallery">
+			<img src="./assets/images/poster/bowl-k.png" class="fancyb" alt="">
+			</a>
+			
+			<a href="./assets/images/poster/sar.png" data-fancybox="gallery">
+			<img src="./assets/images/poster/sar-k.png" class="fancyb" alt="">
+			</a>
+			
+			<a href="./assets/images/poster/echo.png" data-fancybox="gallery">
+			<img src="./assets/images/poster/echo-k.png" class="fancyb" alt="">
+			</a>
+  
+			<a href="./assets/images/poster/golden.png" data-fancybox="gallery">
+			<img src="./assets/images/poster/golden-k2.png" class="fancyb" alt="">
+			</a>
+			
+			<a href="./assets/images/poster/hawk.png" data-fancybox="gallery">
+			<img src="./assets/images/poster/hawk-k.png" class="fancyb" alt="">
+			</a>
+			
+			<a href="./assets/images/poster/moving.png" data-fancybox="gallery">
+			<img src="./assets/images/poster/moving-k.png" class="fancyb" alt="">
+			</a>
+  
+  <!-- Daha fazla resim ekleyebilirsiniz -->
+</div>
 
-              <figure class="card-banner">
-                <img src="./assets/images/1.png" class="w-100"
-                  alt="">
-              </figure>
 
-              <div class="card-content">
-                <h3 class="h4 card-title">Drawings</h3>
 
-                
-              </div>
+<div class="works-cards" data-fancybox data-src="#gallerys">
+		
+		<img src="./assets/images/next/next-main3.png" alt="">
+	
+	</div>
 
-            </a></div>
-  <div><a href="#" class="project-card">
+  
+  
+  
+	<div id="gallerys" style="display: none;">
+  
+			<a href="./assets/images/next/next-main2.png" data-fancybox="gallerys">
+			<img src="./assets/images/next/next-main2.png"  class="fancyc" alt="">
+			</a>
+  
+			<a href="./assets/images/next/next1.png" data-fancybox="gallerys">
+			<img src="./assets/images/next/next1.png"  class="fancyc" alt="">
+			</a>
+			
+			<a href="./assets/images/next/next2.png" data-fancybox="gallerys">
+			<img src="./assets/images/next/next2.png" class="fancyc" alt="">
+			</a>
+			
+			<a href="./assets/images/next/next3.png" data-fancybox="gallerys">
+			<img src="./assets/images/next/next3.png"  class="fancyc" alt="">
+			</a>
+			
+			<a href="./assets/images/next/next4.png" data-fancybox="gallerys">
+			<img src="./assets/images/next/next4.png" class="fancyc" alt="">
+			</a>
+			
+			<a href="./assets/images/next/next4.png" data-fancybox="gallerys">
+			<img src="./assets/images/next/next4.png" class="fancyc" alt="">
+			</a>
+			
+		
+  
+  <!-- Daha fazla resim ekleyebilirsiniz -->
+</div>
 
-              <figure class="card-banner">
-                <img src="./assets/images/2.png" class="w-100"
-                  alt="On a yellow background, a digital watch and a glass.">
-              </figure>
 
-              <div class="card-content">
-                <h3 class="h4 card-title">T-Shirt Designs</h3>
+<div class="work-card3" data-fancybox data-src="#gallery3">
+		
+		<img src="./assets/images/drawings/drawings-main4.png" alt="">
+	
+	</div>
 
-               
-              </div>
+  
+  
+  
+	<div id="gallery3" style="display: none;">
 
-            </a></div>
+			<a href="./assets/images/drawings/drawings-main3.png" data-fancybox="gallery3">
+			<img src="./assets/images/drawings/drawings-main3.png"  class="fancyb" alt="">
+			</a>
+
+
+			<a href="./assets/images/drawings/comets.png" data-fancybox="gallery3">
+			<img src="./assets/images/drawings/comets-k.png"  class="fancyb" alt="">
+			</a>
+			
+			<a href="./assets/images/drawings/pyrite.png" data-fancybox="gallery3">
+			<img src="./assets/images/drawings/pyrite-k.png" class="fancyb" alt="">
+			</a>
+			
+			<a href="./assets/images/drawings/frost.png" data-fancybox="gallery3">
+			<img src="./assets/images/drawings/frost-k.png"  class="fancyb" alt="">
+			</a>
+			
+			<a href="./assets/images/drawings/melt.png" data-fancybox="gallery3">
+			<img src="./assets/images/drawings/melt-k.png" class="fancyb" alt="">
+			</a>
+			
+			<a href="./assets/images/drawings/painted.png" data-fancybox="gallery3">
+			<img src="./assets/images/drawings/painted-k.png" class="fancyb" alt="">
+			</a>
+			
+			<a href="./assets/images/drawings/deadzone.png" data-fancybox="gallery3">
+			<img src="./assets/images/drawings/deadzone-k.png" class="fancyb" alt="">
+			</a>
+  
+			<a href="./assets/images/drawings/shrine.png" data-fancybox="gallery3">
+			<img src="./assets/images/drawings/shrine-k.png" class="fancyb" alt="">
+			</a>
+			
+			<a href="./assets/images/drawings/rot.png" data-fancybox="gallery3">
+			<img src="./assets/images/drawings/rot-k.png" class="fancyb" alt="">
+			</a>
+			
+			<a href="./assets/images/drawings/bloom.png" data-fancybox="gallery3">
+			<img src="./assets/images/drawings/bloom-k.png" class="fancyb" alt="">
+			</a>
+			
+			<a href="./assets/images/drawings/under.png" data-fancybox="gallery3">
+			<img src="./assets/images/drawings/under-k.png" class="fancyb" alt="">
+			</a>
+  
+  
+  <!-- Daha fazla resim ekleyebilirsiniz -->
+</div>
+  
+<div class="workc-cardc" data-fancybox data-src="#gallery4">
+		
+		<img src="./assets/images/tshirt/tshirt-main3.png" alt="">
+	
+	</div>
+
+  
+  
+  
+	<div id="gallery4" style="display: none;">
+	
+	
+			<a href="./assets/images/tshirt/tshirt-main2.png" data-fancybox="gallery4">
+			<img src="./assets/images/tshirt/tshirt-main2.png"  class="fancyd" alt="">
+			</a>
+  
+			<a href="./assets/images/tshirt/a1-b.png" data-fancybox="gallery4">
+			<img src="./assets/images/tshirt/a1.png"  class="fancyd" alt="">
+			</a>
+			
+			<a href="./assets/images/tshirt/a2-b.png" data-fancybox="gallery4">
+			<img src="./assets/images/tshirt/a2.png"  class="fancyd" alt="">
+			</a>
+			
+			<a href="./assets/images/tshirt/a3-b.png" data-fancybox="gallery4">
+			<img src="./assets/images/tshirt/a3.png"  class="fancyd" alt="">
+			</a>
+			
+			<a href="./assets/images/tshirt/a4-b.png" data-fancybox="gallery4">
+			<img src="./assets/images/tshirt/a4.png"  class="fancyd" alt="">
+			</a>
+			
+			<a href="./assets/images/tshirt/a5-b.png" data-fancybox="gallery4">
+			<img src="./assets/images/tshirt/a5.png"  class="fancyd" alt="">
+			</a>
+			
+			<a href="./assets/images/tshirt/a6-b.png" data-fancybox="gallery4">
+			<img src="./assets/images/tshirt/a6.png"  class="fancyd" alt="">
+			</a>
+  
+			<a href="./assets/images/tshirt/a7-b.png" data-fancybox="gallery4">
+			<img src="./assets/images/tshirt/a7.png"  class="fancyd" alt="">
+			</a>
+			
+			<a href="./assets/images/tshirt/a8-b.png" data-fancybox="gallery4">
+			<img src="./assets/images/tshirt/a8.png"  class="fancyd" alt="">
+			</a>
+			
+			<a href="./assets/images/tshirt/a9-b.png" data-fancybox="gallery4">
+			<img src="./assets/images/tshirt/a9.png"  class="fancyd" alt="">
+			</a>
+			
+			<a href="./assets/images/tshirt/a10-b.png" data-fancybox="gallery4">
+			<img src="./assets/images/tshirt/a10.png"  class="fancyd" alt="">
+			</a>
+			
+			<a href="./assets/images/tshirt/a11-b.png" data-fancybox="gallery4">
+			<img src="./assets/images/tshirt/a11.png"  class="fancyd" alt="">
+			</a>
+			
+			<a href="./assets/images/tshirt/a12-b.png" data-fancybox="gallery4">
+			<img src="./assets/images/tshirt/a12.png"  class="fancyd" alt="">
+			</a>
+			
+			<a href="./assets/images/tshirt/a13-b.png" data-fancybox="gallery4">
+			<img src="./assets/images/tshirt/a13.png"  class="fancyd" alt="">
+			</a>
+			
+			<a href="./assets/images/tshirt/a14-b.png" data-fancybox="gallery4">
+			<img src="./assets/images/tshirt/a14.png"  class="fancyd" alt="">
+			</a>
+			
+			<a href="./assets/images/tshirt/a15-b.png" data-fancybox="gallery4">
+			<img src="./assets/images/tshirt/a15.png"  class="fancyd" alt="">
+			</a>
+			
+			<a href="./assets/images/tshirt/a16-b.png" data-fancybox="gallery4">
+			<img src="./assets/images/tshirt/a16.png"  class="fancyd" alt="">
+			</a>
+  
+			<a href="./assets/images/tshirt/a17-b.png" data-fancybox="gallery4">
+			<img src="./assets/images/tshirt/a17.png"  class="fancyd" alt="">
+			</a>
+			
+			<a href="./assets/images/tshirt/a18-b.png" data-fancybox="gallery4">
+			<img src="./assets/images/tshirt/a18.png"  class="fancyd" alt="">
+			</a>
+			
+			<a href="./assets/images/tshirt/a19-b.png" data-fancybox="gallery4">
+			<img src="./assets/images/tshirt/a19.png"  class="fancyd" alt="">
+			</a>
+			
+			<a href="./assets/images/tshirt/a20-b.png" data-fancybox="gallery4">
+			<img src="./assets/images/tshirt/a20.png"  class="fancyd" alt="">
+			</a>
+			
+			<a href="./assets/images/tshirt/a21-b.png" data-fancybox="gallery4">
+			<img src="./assets/images/tshirt/a21.png"  class="fancyd" alt="">
+			</a>
+			
+			<a href="./assets/images/tshirt/a22-b.png" data-fancybox="gallery4">
+			<img src="./assets/images/tshirt/a22.png"  class="fancyd" alt="">
+			</a>
+			
+			<a href="./assets/images/tshirt/a23-b.png" data-fancybox="gallery4">
+			<img src="./assets/images/tshirt/a23.png"  class="fancyd" alt="">
+			</a>
+			
+			<a href="./assets/images/tshirt/a24-b.png" data-fancybox="gallery4">
+			<img src="./assets/images/tshirt/a24.png"  class="fancyd" alt="">
+			</a>
+  
+  <!-- Daha fazla resim ekleyebilirsiniz -->
+</div>
+ 
+
+	
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+<script>
+$(document).ready(function() {
+    // Tetikleyiciye tıklandığında modal galeriyi aç
+	
+    $("#trigger").on("click", function() {
+        $.fancybox.open({
+            src: "#gallery",
+            type: "inline",
+            autoFocus: false, // Modal galeriyi otomatik olarak açmayı engeller
+
+            opts: {
+			  Thumbs: false,
+                beforeClose: function() {
+                    $("#gallery").fadeOut();
+					
+                }
+            }
+        });
+    });
+});
+
+</script>
+<script>
+$(document).ready(function() {
+    // Tetikleyiciye tıklandığında modal galeriyi aç
+	
+    $("#trigger").on("click", function() {
+        $.fancybox.open({
+            src: "#gallerys",
+            type: "inline",
+            autoFocus: false, // Modal galeriyi otomatik olarak açmayı engeller
+
+            opts: {
+			  Thumbs: false,
+                beforeClose: function() {
+                    $("#gallerys").fadeOut();
+					
+                }
+            }
+        });
+    });
+});
+
+</script>
+
+
+
+<script>
+$(document).ready(function() {
+    // Tetikleyiciye tıklandığında modal galeriyi aç
+	
+    $("#trigger").on("click", function() {
+        $.fancybox.open({
+            src: "#gallery3",
+            type: "inline",
+            autoFocus: false, // Modal galeriyi otomatik olarak açmayı engeller
+
+            opts: {
+			  Thumbs: false,
+                beforeClose: function() {
+                    $("#gallery3").fadeOut();
+					
+                }
+            }
+        });
+    });
+});
+
+</script>
+<script>
+$(document).ready(function() {
+    // Tetikleyiciye tıklandığında modal galeriyi aç
+	
+    $("#trigger").on("click", function() {
+        $.fancybox.open({
+            src: "#gallery4",
+            type: "inline",
+            autoFocus: false, // Modal galeriyi otomatik olarak açmayı engeller
+
+            opts: {
+			  Thumbs: false,
+                beforeClose: function() {
+                    $("#gallery4").fadeOut();
+					
+                }
+            }
+        });
+    });
+});
+
+</script>
+
+
+
+
+
+
+
+  
 </section>
-
-
-
-
-
-     
-
-
 
       <!-- 
         - #CONTACT
       -->
+	  
+	  <section class="layout-2" id="contact">
+  <div class="project-content section-content">
 
-      <section class="contact" id="contact">
+              <p class="section-subtitle">Contact</p>
 
-        <div class="contact-content section-content">
+              <h2 class="h3 section-title">Contact Me</h2>
 
-     
-          <h2 class="h3 section-title">Contact Me</h2>
-
-          
-
-          <ul class="contact-list">
+                  <ul class="contact-list">
 
             <li class="contact-list-item">
 
@@ -243,7 +547,6 @@ I'm Mert, a perpetual learner passionate about exploring diverse subjects and en
 
                 <address class="contact-info">
                   Barbaros Hayrettin Paşa Mh.
-1048. Sokak No.1 Kat. 4
 Gaziosmanpaşa/İSTANBUL
                 </address>
               </div>
@@ -275,7 +578,7 @@ Gaziosmanpaşa/İSTANBUL
               <div class="wrapper">
                 <h3 class="h4 contact-item-title">Email:</h3>
 
-                <a href="mailto:mustafamert.gulec@gmail.com" class="contact-info">info@jack.com</a>
+                <a href="mailto:mustafamert.gulec@gmail.com" class="contact-info">mustafamert.gulec@gmail.com</a>
 
      
               </div>
@@ -285,11 +588,11 @@ Gaziosmanpaşa/İSTANBUL
             
 
           </ul>
+            </div>
 
-        </div>
+</section>
 
 
-      </section>
 
     </article>
   </main>
@@ -306,8 +609,8 @@ Gaziosmanpaşa/İSTANBUL
     <div class="container">
 
       <p class="h1 logo">
-        <a href="#">
-          Mert<span>.</span>
+        <a href="index.html">
+          <span></span>
         </a>
       </p>
 

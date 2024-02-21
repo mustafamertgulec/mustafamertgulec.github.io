@@ -103,3 +103,53 @@ if (localStorage.getItem("theme") === "light_theme") {
   document.body.classList.remove("light_theme");
   document.body.classList.add("dark_theme");
 }
+
+
+var modal = document.getElementById("modalGaleri");
+var btn = document.getElementById("modalAcBtn");
+var span = document.getElementsByClassName("kapat")[0];
+
+btn.onclick = function() {
+  modal.style.display = "block";
+  document.body.classList.add("modal-acildi"); // Body'ye modal-acildi sınıfını ekle
+}
+
+span.onclick = function() {
+  modal.style.display = "none";
+  document.body.classList.remove("modal-acildi"); // Body'den modal-acildi sınıfını kaldır
+}
+
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+    document.body.classList.remove("modal-acildi"); // Body'den modal-acildi sınıfını kaldır
+  }
+}
+
+
+
+$(document).ready(function() {
+  $("#viewMoreBtn").click(function() {
+    $.fancybox.open([
+      {
+        src: './assets/images/5.png',
+        opts: {
+          caption: 'Resim 1 açıklaması'
+        }
+      },
+      {
+        src: 'resim2-buyuk.jpg',
+        opts: {
+          caption: 'Resim 2 açıklaması'
+        }
+      }
+      // Daha fazla resim ekleyebilirsiniz
+    ], {
+      loop: false,
+      thumbs: {
+        autoStart: true,
+        axis: 'x'
+      }
+    });
+  });
+});
