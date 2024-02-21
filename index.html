@@ -140,6 +140,35 @@ I'm Mert, a perpetual learner passionate about exploring diverse subjects and en
 <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
 
 
+ <script>
+    // Open the modal gallery
+    function openGallery(galleryId) {
+      var modal = document.getElementById('myModal');
+      var galleryContent = document.getElementById(galleryId).innerHTML;
+      modal.style.display = "block";
+      modal.querySelector('.modal-content').innerHTML = galleryContent;
+    }
+
+    // Close the modal gallery
+    function closeGallery() {
+      var modal = document.getElementById('myModal');
+      modal.style.display = "none";
+    }
+
+    // Listen for the back button press on mobile devices
+    window.addEventListener('popstate', function(event) {
+      var modal = document.getElementById('myModal');
+      if (modal.style.display === 'block') {
+        closeGallery();
+      }
+    });
+  </script>
+
+  <!-- ionicon link -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
 
 
 <div class="parent">
