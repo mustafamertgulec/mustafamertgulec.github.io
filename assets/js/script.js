@@ -128,28 +128,10 @@ window.onclick = function(event) {
 
 
 
-$(document).ready(function() {
-  $("#viewMoreBtn").click(function() {
-    $.fancybox.open([
-      {
-        src: './assets/images/5.png',
-        opts: {
-          caption: 'Resim 1 açıklaması'
-        }
-      },
-      {
-        src: 'resim2-buyuk.jpg',
-        opts: {
-          caption: 'Resim 2 açıklaması'
-        }
-      }
-      // Daha fazla resim ekleyebilirsiniz
-    ], {
-      loop: false,
-      thumbs: {
-        autoStart: true,
-        axis: 'x'
-      }
-    });
+
+function openGallery(id) {
+  $.fancybox.open({
+    src: `#${id}`,
+    type: 'inline'
   });
-});
+}
